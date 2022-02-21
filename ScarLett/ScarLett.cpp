@@ -8,11 +8,13 @@ bool NotPrime(unsigned long int input);
 int main()
 {
 	unsigned long int p = 2;
-	while (theEquation(p) == false)
+	while (p<= 7931034000)//Total population 
 	{
+		if (theEquation(p))
+			cout << "Solution discovered: " << p << endl;
 		p = FindNextPrime(p);
 	}
-	cout << "Solution discovered: " << p << endl;
+	cout<<p<<"checked. No new solution is found."//Among 7.9 billons people live on the Earth, 521 is the only solution
 }
 bool theEquation(unsigned long int p)
 {
