@@ -14,7 +14,7 @@ int main()
 			cout << "Solution discovered: " << p << endl;
 		p = FindNextPrime(p);
 	}
-	cout<<p<<"checked. No new solution is found."//Among 7.9 billons people live on the Earth, 521 is the only solution
+	cout << p << "checked. No new solution is found.";//Among 7.9 billons people live on the Earth, 521 is the only solution
 }
 bool theEquation(unsigned long int p)
 {
